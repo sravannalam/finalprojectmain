@@ -1,0 +1,11 @@
+environment        = "dev"
+domain_name        = "dev.services.loyalty.bwhhg.io"
+r53_zone_private   = "loyalty.bwhhg.io"
+subnet_names       = ["a133-r5-v0-b0-a", "a133-r5-v0-b0-b"]
+region             = "us-west-2"
+loyalty_context    = ["auth", "rewards", "rewards-admin", "rewards-partners"]
+loyalty_stackgroup = ["bwrat", "bwrrs", "bwran", "bwrps"]
+stage_name         = "dev"
+vpc_name           = "a133-r5-v0"
+subnet_band        = "b0"
+authorizer_type  = "NONE"
